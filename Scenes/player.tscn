@@ -97,7 +97,7 @@ script = ExtResource("1_74twe")
 position = Vector2(0, -2)
 shape = SubResource("CapsuleShape2D_xxp3f")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+[node name="MySprite" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_b7iso")
 animation = &"idle"
 frame = 4
