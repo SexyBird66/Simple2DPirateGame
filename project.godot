@@ -13,3 +13,16 @@ config_version=5
 config/name="Simple2DPirateGame"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/scale=2.0
+window/vsync/vsync_mode=0
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/format_on_save/plugin.cfg", "res://addons/script-ide/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
